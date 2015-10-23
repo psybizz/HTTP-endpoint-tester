@@ -9,6 +9,7 @@
   "nonew": true,
   "undef": true,
   "scripturl": true,
+  "node": true,
   "globals": {
     "window": false,
     "document": false,

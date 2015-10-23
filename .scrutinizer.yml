@@ -2,6 +2,12 @@ build:
     environment:
         node: '0.12.4'
 
+checks:
+    php: false
+    javascript: true
+    python: false
+    ruby: false
+    java: false
 
 before_commands:
    - npm install
@@ -9,6 +15,7 @@ before_commands:
 tools:
     js_hint:
         enabled: true
+        use_native_config: true
         extensions:
             - js
         config:
