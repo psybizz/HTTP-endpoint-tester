@@ -5,8 +5,11 @@ build:
         rabbitmq: false
         mysql: false
         elasticsearch: false
-        php: false
-        
+        php: '5.6.9'
+
+checks:
+    php: false
+
 before_commands:
    - npm install
 
