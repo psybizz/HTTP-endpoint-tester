@@ -1,0 +1,24 @@
+[
+    {
+        "//": "Test if the host is responding at all",
+        "path": "/",
+        "method": "GET",
+        "headers": {},
+        "statusCode": [200, 302, 404],
+        "public": true,
+        "secure": false,
+        "requireFQDN": 1,
+        "timeout": 50
+    },
+    {
+        "//": "Check if the login page loads",
+        "path": "/login",
+        "method": "GET",
+        "headers": {},
+        "statusCode": [200],
+        "public": true,
+        "secure": false,
+        "requireFQDN": 1,
+        "timeout": 50
+    }
+]

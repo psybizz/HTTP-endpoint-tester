@@ -1,0 +1,29 @@
+{
+    "name": "psybizz/http-endpoint-tester",
+    "version": "v0.1.2",
+    "license": "MIT",
+    "type": "project",
+    "description": "Test application for http(s) endpoints written in node.js",
+    "homepage": "https://github.com/psybizz/HTTP-endpoint-tester",
+    "authors": [
+        {
+            "email": "development@psybizz.eu",
+            "name": "Development",
+            "role": "Company",
+            "homepage": "http://www.psybizz.eu"
+        }
+    ],
+    "keywords": [
+        "tests",
+        "node.js",
+        "http"
+    ],
+    "scripts": {
+        "post-install-cmd": [
+            "npm install"
+        ],
+        "post-update-cmd": [
+            "npm install"
+        ]
+    }
+}

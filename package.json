@@ -1,0 +1,14 @@
+{
+  "name": "HTTP-endpoint-tester",
+  "version": "0.1.2",
+  "repository": "https://github.com/psybizz/HTTP-endpoint-tester",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "chai": "3.3.*",
+    "extend": "3.0.*",
+    "js-yaml": "3.4.*",
+    "mocha": "2.3.*",
+    "request": "2.65.*"
+  }
+}
