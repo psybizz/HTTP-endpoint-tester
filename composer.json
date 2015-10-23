@@ -4,7 +4,7 @@
     "license": "MIT",
     "type": "project",
     "description": "Test application for http(s) endpoints written in node.js",
-    "homepage": "https://github.com/psybizz/HTTP-endpoint-tester",
+    "homepage": "https://github.com/psybizz/http-endpoint-tester",
     "authors": [
         {
             "email": "development@psybizz.eu",

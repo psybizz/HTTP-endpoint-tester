@@ -1,7 +1,7 @@
 {
-  "name": "HTTP-endpoint-tester",
+  "name": "http-endpoint-tester",
   "version": "0.1.2",
-  "repository": "https://github.com/psybizz/HTTP-endpoint-tester",
+  "repository": "https://github.com/psybizz/http-endpoint-tester",
   "license": "MIT",
   "private": false,
   "devDependencies": {

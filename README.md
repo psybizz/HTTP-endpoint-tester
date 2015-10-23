@@ -1,4 +1,4 @@
-HTTPEndpointTester
+http-endpoint-tester
 ==================
 
 A HTTP endpoint tester using node.js, inspired by the [node-test-tutorial](https://github.com/DBeath/node-test-tutorial) of David Beath and the talk of Danny Dinneen at the 2014 edition of the Endpoint conference.
