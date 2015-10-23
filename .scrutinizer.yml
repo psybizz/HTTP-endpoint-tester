@@ -7,10 +7,7 @@ build:
         elasticsearch: false
         redis: false
         php: '5.6.9'
-
-before_commands:
-   - npm install
-
+        
 tools:
     js_hint:
         enabled: true
