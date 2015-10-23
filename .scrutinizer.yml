@@ -1,0 +1,22 @@
+build:
+    environment:
+        node: '0.12.4'
+
+checks:
+    javascript:
+        code_rating: true
+        duplication: true
+
+before_commands:
+   - npm install
+
+tools:
+    js_hint:
+        enabled: true
+        extensions:
+            - js
+        config:
+            "bitwise"       : false    # Prohibit bitwise operators (& | ^ etc.).
+            "node"          : true
+application:
+    type: none
