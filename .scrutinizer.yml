@@ -1,14 +1,12 @@
 build:
     environment:
         node: '0.12.4'
-
-checks:
-    php: false
-    javascript: true
-    python: false
-    ruby: false
-    java: false
-
+        postgresql: false
+        rabbitmq: false
+        mysql: false
+        elasticsearch: false
+        php: false
+        
 before_commands:
    - npm install
 
