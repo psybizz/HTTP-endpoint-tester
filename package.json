@@ -3,7 +3,7 @@
   "version": "0.1.2",
   "repository": "https://github.com/psybizz/HTTP-endpoint-tester",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "devDependencies": {
     "chai": "3.3.*",
     "extend": "3.0.*",
