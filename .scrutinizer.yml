@@ -2,10 +2,6 @@ build:
     environment:
         node: '0.12.4'
 
-checks:
-    javascript:
-        code_rating: true
-        duplication: true
 
 before_commands:
    - npm install

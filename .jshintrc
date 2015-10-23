@@ -1,0 +1,24 @@
+{
+  "bitwise": true,
+  "curly": true,
+  "eqeqeq": true,
+  "forin": true,
+  "freeze": true,
+  "latedef": true,
+  "noarg": true,
+  "nonew": true,
+  "undef": true,
+  "scripturl": true,
+  "globals": {
+    "window": false,
+    "document": false,
+    "location": false,
+    "console": false,
+    "setInterval": false,
+    "$": false,
+    "jQuery": false,
+    "React": false,
+    "Class": false,
+    "classNames": false
+  }
+}
