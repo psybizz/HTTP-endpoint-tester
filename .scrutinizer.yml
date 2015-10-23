@@ -5,6 +5,7 @@ build:
         rabbitmq: false
         mysql: false
         elasticsearch: false
+        redis: false
         php: '5.6.9'
 
 before_commands:
