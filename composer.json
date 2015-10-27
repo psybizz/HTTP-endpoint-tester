@@ -1,6 +1,6 @@
 {
     "name": "psybizz/http-endpoint-tester",
-    "version": "v0.1.2",
+    "version": "v1.0",
     "license": "MIT",
     "type": "project",
     "description": "Test application for http(s) endpoints written in node.js",
