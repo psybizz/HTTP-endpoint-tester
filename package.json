@@ -1,6 +1,6 @@
 {
   "name": "http-endpoint-tester",
-  "version": "v1.0",
+  "version": "1.0.1",
   "repository": "https://github.com/psybizz/http-endpoint-tester",
   "license": "MIT",
   "private": false,

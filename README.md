@@ -56,6 +56,9 @@ requireFQDN: mark a test as optional or required when an site uri has been speci
 
 public and secure are not implemented yet.
 
+NOTE on site_uri: this will be set as host header in the request object as demanded by the HTTP1.1 standard, but the request/request implementation will use this value as proxy.
+So when the tested host is not identical to the site_uri, you are strongly advised to specify followRedirects to false.
+
 ## Resources
   - [Request class for node.js](https://github.com/mikeal/request)
   - [Mocha test framework](http://http://mochajs.org/)

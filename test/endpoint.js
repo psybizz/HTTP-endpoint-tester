@@ -20,10 +20,6 @@ var pathsList = yaml.safeLoad(fs.readFileSync(pathsFile, 'utf8'));
 
 var testHttpCode = require("./methods/httpstatus.js").httpcode;
 
-var http_headers = {
-    'Host': site_uri
-};
-
 if ( site_uri == host ) {
     pathsList = pathsList.filter( endpointsWithoutFQDN );
 } else {
@@ -33,6 +29,14 @@ if ( site_uri == host ) {
 suite("Checking paths for host " + host + ' with the sitename ' + site_uri, function () {
     var testHttpResponse = testHttpCode;
     pathsList.forEach(function (dataItem) {
+
+        var http_headers = '';
+        if (dataItem.secure === 1) {
+            http_headers = {
+                'Host': site_uri
+            };
+        }
+
         describe("Checking status " + dataItem.statusCode.toString() + " for " + dataItem.path, testHttpResponse(dataItem, host, http_headers));
     });
 });
